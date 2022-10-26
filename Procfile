@@ -1,2 +1,2 @@
-web:gunicorn --chdir src runner:application
+web:gunicorn src.runner:application
  
